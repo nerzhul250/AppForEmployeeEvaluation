@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Model">
+		<class>com.usoft.model.Area</class>
+		<class>com.usoft.model.Careerplan</class>
+		<class>com.usoft.model.Configuration</class>
+		<class>com.usoft.model.Criteria</class>
+		<class>com.usoft.model.Evaluation</class>
+		<class>com.usoft.model.Evaluationcriteria</class>
+		<class>com.usoft.model.Indicator</class>
+		<class>com.usoft.model.Indicatorposition</class>
+		<class>com.usoft.model.Log</class>
+		<class>com.usoft.model.Period</class>
+		<class>com.usoft.model.Permission</class>
+		<class>com.usoft.model.Position</class>
+		<class>com.usoft.model.Positionuser</class>
+		<class>com.usoft.model.Role</class>
+		<class>com.usoft.model.State</class>
+		<class>com.usoft.model.Token</class>
+		<class>com.usoft.model.Userrole</class>
+		<class>com.usoft.model.Usuario</class>
+		<class>com.usoft.model.Permissionrole</class>
+	</persistence-unit>
+</persistence>
